@@ -17,6 +17,10 @@ attr_accessor :name, :appointments
     self.appointments.collect  {|appointment|  appointment.doctor}
   end 
   
+  def self.all
+    @@all
+  end 
+  
   
   
   
