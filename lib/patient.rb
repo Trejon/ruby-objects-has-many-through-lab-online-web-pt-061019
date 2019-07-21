@@ -13,6 +13,10 @@ attr_accessor :name, :appointments
     Appointment.new(date,self,doctor)
   end 
   
+  def doctors 
+    
+  end 
+  
   
   
   
